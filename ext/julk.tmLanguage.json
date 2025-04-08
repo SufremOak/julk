@@ -1,0 +1,65 @@
+{
+    "name": "Julk",
+    "scopeName": "source.julk",
+    "fileTypes": ["jlk"],
+    "patterns": [
+      {
+        "name": "keyword.control.julk",
+        "match": "\\b(defmacro|def|alias|let|eval|definex|claaf|sync|if|else|return|use)\\b"
+      },
+      {
+        "name": "constant.language.julk",
+        "match": "\\b(True|False|null)\\b"
+      },
+      {
+        "name": "storage.type.julk",
+        "match": "\\b(Result|Module|State)\\b"
+      },
+      {
+        "name": "string.quoted.double.julk",
+        "begin": "\"",
+        "end": "\"",
+        "patterns": [
+          {
+            "name": "constant.character.escape.julk",
+            "match": "\\\\."
+          }
+        ]
+      },
+      {
+        "name": "string.quoted.single.julk",
+        "begin": "'",
+        "end": "'",
+        "patterns": [
+          {
+            "name": "constant.character.escape.julk",
+            "match": "\\\\."
+          }
+        ]
+      },
+      {
+        "name": "comment.line.double-slash.julk",
+        "match": "//.*$"
+      },
+      {
+        "name": "entity.name.function.julk",
+        "match": "\\bdef\\s+(\\w+)"
+      },
+      {
+        "name": "entity.name.macro.julk",
+        "match": "\\bdefmacro\\s+(\\w+)"
+      },
+      {
+        "name": "keyword.other.claaf.julk",
+        "match": "\\bclaaf\\s+(\\w+)"
+      },
+      {
+        "name": "keyword.operator.julk",
+        "match": "(\\+|\\-|\\*|\\/|===|==|!=|=|<|>)"
+      }
+    ],
+    "repository": {},
+    "scopeName": "source.julk",
+    "uuid": "f65ac04c-83d7-4e58-9df9-f8ff0b2c9383"
+  }
+  
