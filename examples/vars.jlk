@@ -1,0 +1,9 @@
+let you = %name
+let bff = %name
+
+let name = {
+    definex "you" = "Miguel"
+    definex "bff" = "Johnny"
+}
+
+out(you, " is ", bff + "%'s%", " BFF.")

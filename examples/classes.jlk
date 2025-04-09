@@ -1,0 +1,6 @@
+claaf Module {
+    def version = "1.0.0"
+    def get_name = "core.module"
+} Mod;
+
+print(Mod.version)

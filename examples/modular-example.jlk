@@ -1,0 +1,5 @@
+defmacro std
+def println alias(expression === val then return "print(" + val + ")")
+
+std
+println "Hello from stdlib"

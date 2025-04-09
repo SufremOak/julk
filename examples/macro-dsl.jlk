@@ -1,0 +1,4 @@
+defmacro when
+
+when x == 10:
+    print("x is ten")

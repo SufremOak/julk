@@ -1,0 +1,24 @@
+{
+    "iconDefinitions": {
+      "jlk-icon": {
+        "iconPath": "./julk-icon.svg"
+      }
+    },
+    "fileExtensions": {
+      "jlk": "jlk-icon"
+    },
+    "fileNames": {
+      "Julkfile": "jlk-icon"
+    },
+    "light": {
+      "fileExtensions": {
+        "jlk": "jlk-icon"
+      }
+    },
+    "dark": {
+      "fileExtensions": {
+        "jlk": "jlk-icon"
+      }
+    }
+  }
+  

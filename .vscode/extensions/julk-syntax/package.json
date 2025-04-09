@@ -1,0 +1,35 @@
+{
+    "name": "julk-syntax",
+    "displayName": "Julk Syntax",
+    "description": "Syntax highlighting for the Julk language",
+    "version": "0.1.2",
+    "repository": "https://github.com/sufremoak/julk",
+    "publisher": "SufremOak",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "contributes": {
+        "languages": [
+    {
+      "id": "julk",
+      "aliases": ["Julk", "julk"],
+      "extensions": [".jlk"],
+      "configuration": "./language-configuration.json",
+      "icon": {
+        "light": "./icons/julk-icon.svg",
+        "dark": "./icons/julk-icon.svg"
+      }
+    }
+  ],
+        "grammars": [
+            {
+                "language": "julk",
+                "scopeName": "source.julk",
+                "path": "./syntaxes/julk.tmLanguage.json"
+            }
+        ]
+    },
+    "dependencies": {
+        "vsce": "^2.15.0"
+    }
+}

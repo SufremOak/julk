@@ -1,0 +1,6 @@
+def sum alias(expression === var1 "+" var2 then return Result)
+
+eval a = num"2"
+eval b = num"5"
+
+sum a + b
